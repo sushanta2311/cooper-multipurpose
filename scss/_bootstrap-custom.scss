@@ -1,0 +1,116 @@
+// custom variables and override bootstrap variables
+
+//== Colors
+$brand-primary:	darken(#428bca, 6.5%); // #337ab7
+$brand-success:	#2ecc71;
+$brand-danger:	#f3746f;
+$gray-base:	#000;
+$gray-darker:	lighten($gray-base, 13.5%); // #222
+$white:	#fff;
+$clr1:	#666;
+$clr2:	#d7d7d7;
+$clr3:	#828282;
+$clr4:	#9d9d9d;
+$clr5:	#ebebeb;
+$clr6:	#b6b6b6;
+$clr7:	#dfdfdf;
+$clr8:	#9f9f9f;
+$clr9:	#acacac;
+$clr10:	#e8e8e8;
+$clr11:	#f0f0f0;
+$clr12:	#8f8f8f;
+$clr13:	#8c8c8c;
+$clr14:	#9e9e9e;
+$clr15:	#8d8d8d;
+$clr16:	#51595b;
+$clr17:	#acb2b4;
+$clr18:	#8e9698;
+$clr19:	#021116;
+$clr20:	#233141;
+$clr21:	#8292a5;
+$clr22:	#f6f6f6;
+$clr23:	#d9dbdc;
+$clr24:	#082c38;
+$clr25:	#3fbdf3;
+$clr26:	#002d40;
+$clr27:	#1a242d;
+$clr28:	#22313f;
+$clr29:	#ededed;
+$clr30:	#e5e5e5;
+$clr31:	#a1afbd;
+$clr32:	#8c97a1;
+$clr33:	#6e7984;
+$clr34:	#f0f8fb;
+$clr35:	#52606c;
+$clr36:	#d1f0ff;
+$clr37:	#bfc0c1;
+$clr38:	#c4c4c4;
+$clr39:	#19242f;
+$clr40:	#161f27;
+$clr41:	#8d959d;
+$clr42:	#6c737a;
+$clr43:	#19b5fe;
+$clr44:	#2b3a48;
+$clr45:	#8b9dae;
+$clr46:	#131619;
+$clr47:	#6f787a;
+$clr48:	#f8f8f8;
+$clr49:	#7f9298;
+$clr50: #f2f2f2;
+$clr51: #dddddd;
+$clr52: #dfd445;
+$clr53: #676767;
+
+$color:	#ffe047;
+$color2:	#009bde;
+
+//== Scaffolding
+$text-color:	$clr1;
+$link-color:	$gray-darker;
+$link-hover-decoration: none;
+$link-hover-color:	darken($brand-primary, 15%);
+
+//== Typography
+$font-family-sans-serif:	"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-oswald:	"Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base:	15px;
+$line-height-base:	30/16;
+$headings-font-family:	$font-family-oswald;
+$headings-font-weight:	700;
+$headings-color:	$gray-darker;
+$font-size-h2:	26px;
+$font-size-h3:	18px;
+
+//== Media queries breakpoints
+$screen-lg:	1230px;
+
+//== Container sizes
+$container-lg:	1200px;
+
+//== Navbar
+$navbar-height:	1px;
+$navbar-margin-bottom:	0;
+$navbar-border-radius:	0;
+$navbar-padding-horizontal:	0;
+$navbar-padding-vertical:	0;
+$navbar-default-color:	$gray-darker;
+$navbar-default-bg:	transparent;
+$navbar-default-border:	transparent;
+$navbar-default-toggle-hover-bg:	$gray-darker;
+$navbar-default-toggle-icon-bar-bg:	$white;
+$navbar-default-toggle-border-color:	$gray-darker;
+
+//== Buttons
+$btn-font-weight:	600;
+$btn-default-color:	$gray-darker;
+$btn-default-bg:	$white;
+$btn-default-border:	$gray-darker;
+
+//== Forms
+$input-bg:	$gray-darker;
+$input-color:	$white;
+$input-border:	$clr11;
+$input-border-radius:	0;
+$input-border-focus:	$clr3;
+$input-color-placeholder:	$white;
+$form-group-margin-bottom:	16px;
